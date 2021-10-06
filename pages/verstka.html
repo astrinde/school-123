@@ -6,18 +6,47 @@
   </head>
   <body>
     <h1>О языке HTML</h1>
-    <p>HTML - это язык разметк, для подробной информации <a href="https://ru.wikipedia.org/wiki/HTML">сюда.</a> 
-        За официальной информацией о тегах <a href="https://developer.mozilla.org/ru/docs/Web/HTML">сюда.</a>
-    А за неофициальной, но удобной информацией <a href="http://htmlbook.ru/html">сюда.</a></p>
+    <h2>Общие сведения</h2>
+    <p>Язык HTML отвечает за структуру и содержание страницы. Он состоит из
+       команд, которые называются тегами. Любой тег состоит из имени,
+        заключённого между знаками &#x2039&#x2039меньше&#x203A&#x203A
+        и &#x2039&#x2039больше&#x203A&#x203A. Примеры тегов: &#x3Ch1&#x3E, 
+        &#x3Cp&#x3E, &#x3Cul&#x3E. При этом все теги подразделяются на: парные, обрабатывающие фрагмент
+         текста, и одиночные, применимые ко всей странице. Более подробная информация о языке на 
+        <a href="https://ru.wikipedia.org/wiki/HTML">Wikipedia</a> или официальной
+         странице<a href="https://www.w3.org/">The World Wide Web Consortium (W3C).</a>
+          Но удобнее пользоваться просто сайтом <a href="http://htmlbook.ru/">htmlbook.ru.</a> &#x1F44D&#x1F44D&#x1F44D</p>
+          <p>Здесь же я оставлю маленькую шпаргалку по основным тегам.</p>
       <ul>
+        <li>&#x3Cp&#x3E&#x3C/p&#x3E &#x2014 абзац</li>
+        <li>&#60br&#x3E&#x3C/br&#x3E &#x2014 переход на новую строку</li>
+        <li>&#x3Cpre&#x3E&#x3C/pre&#x3E &#x2014 <pre>
+
+                              предварительное
+                                форматирование
+                                  как в редакторе
+
+        </pre>
+      </li>
+      <li>&#60code&#x3E&#x3C/code&#x3E &#x2014 <code>форматирование с имитацией программного кода</code> 
+      <pre><code>let a = prompt()
+console.log(a)
+alert(a)</code></pre>
+</li>
+<li>&#x3Ci&#x3E&#x3C/i&#x3E &#x2014 <i>курсив</i></li>
+<li>&#60b&#x3E&#x3C/b&#x3E &#x2014 <b>жирный шрифт</b></li>
+<li>&#60mark&#x3E&#x3C/mark&#x3E &#x2014 <mark>выделенный шрифт</mark></li>
+<li>&#60sup&#x3E&#x3C/sup&#x3E &#x2014 <sup>верхнее начертание</sup></li>
+<li>&#60sub&#x3E&#x3C/sub&#x3E &#x2014 <sub>жирный шрифт</sub></li>
+<li>&#60!-- неработающий код --&#x3E &#x2014 комментарии в языке HTML</li>
           <li>
       <a href="../index.html">Главная страница</a>
       </li>
       <li>
-        <a href="JS.html">О JS</a>
+        <a href="JS.html">JS программирование</a>
     </li>
     <li>
-        <a href="CSS.html">О CSS</a>
+        <a href="CSS.html">CSS оформление</a>
     </li>
     </ul>
   </body>
